@@ -5,228 +5,262 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:wght@400;500;600;700;800;900&family=Roboto:wght@700&family=Seymour+One&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/main.min.css">
     <title>ice-cream</title>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="">
-                <svg class="" width="60" heigth="65">
+    <header class="header">
+        <nav class="header__nav">
+            <a href="" class="logo">
+                <svg class="logo-icon" width="60" height="65">
                     <use href="./img/symbol-defs.svg#icon-Logo">
 
                     </use>
                 </svg>
             </a>
-            <ul>
-                <li>
-                    <a href="">Home</a>
+            <ul class="menu__list">
+                <li class="menu__list--item">
+                    <a href="" class="menu__list--link">Home</a>
                 </li>
-                <li>
-                    <a href="">How it’s made?</a>
+                <li class="menu__list--item">
+                    <a href="" class="menu__list--link">How it’s made?</a>
                 </li>
-                <li>
-                    <a href="">Our products</a>
+                <li class="menu__list--item">
+                    <a href="" class="menu__list--link">Our products</a>
                 </li>
-                <li>
-                    <a href="">Contact</a>
+                <li class="menu__list--item">
+                    <a href="" class="menu__list--link">Contact</a>
                 </li>
             </ul>
 
         </nav>
-        <button type="button">Buy now</button>
+        <button class="btn" type="button">Buy now</button>
     </header>
-    <main>
-        <section>
-            <h1>ice cream made with passion</h1>
-            <img src="" alt="">
-            <ul>
-                <li>
-                    <span>16</span>
-                    <p>cafes</p>
-                </li>
-                <li>
-                    <span>23</span>
-                    <p>food trucks</p>
-                </li>
-            </ul>
-            <button type="button">Products</button>
-            <button type="button">How it’s made?</button>
-            <img src="" alt="">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            </p>
-        </section>
-        <section>
-            <p>100% natural</p>
-            <h2>products</h2>
+    <main class="main-page">
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero__title">ice cream made with passion</h1>
 
-            <ul>
-                <li>
-                    <img src="" alt="">
-                    <h3>ice cream</h3>
-                    <p>Soft ice cream with a delicate taste. Made with milk, cream, sugar and natural stabilizer</p>
-                </li>
-                <li>
-                    <img src="" alt="">
-                    <h3>ice coffee</h3>
-                    <p>Fragrant invigorating drink created from 100% natural ingredients without the use of
-                        preservatives and flavor enhancers</p>
-                </li>
-                <li>
-                    <img src="" alt="">
-                    <h3>milkshakes</h3>
-                    <p>Sweet drinks based on milk and ice cream, supplemented with syrups, fruits, berries and other
-                        sweets of your choice</p>
-                </li>
-            </ul>
-        </section>
-        <section>
-
-            <p>tradition and love</p>
-            <h2>how it’s made?</h2>
-
-            <img src="" alt="">
-            <ul>
-                <li>
-                    <p>Ice is a place where you will become not only a little happier, but also healthier. Health is the
-                        main value for us, and
-                        we follow it when creating our handmade desserts.</p>
-                </li>
-                <li>
-                    <p>We use traditional recipes and 100% natural ingredients. Our products are so natural that they
-                        can be given to children
-                        from the age of three years. Sweets lovers can expect 55 types of ice cream, 15 types of coffee
-                        and 23 milkshakes.</p>
-                </li>
-                <li>
-                    <p>This is enough to choose ice cream and coffee for any mood!</p>
-                </li>
-            </ul>
-            <button type="button">Read more</button>
-            <ul>
-                <li>
-                    <svg>
-                        <use></use>
-                    </svg>
-                    <span>721</span>
-                    <p>Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
-                </li>
-                <li>
-                    <svg>
-                        <use></use>
-                    </svg>
-                    <span>16kg</span>
-                    <p>Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
-                </li>
-                <li>
-                    <svg>
-                        <use></use>
-                    </svg>
-                    <span>84</span>
-                    <p>Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
-                </li>
-            </ul>
-        </section>
-        <section>
-            <ul>
-                <li>
-                    <h3>cafe</h3>
-                    <address>
-                        <p>Chicago</p>
-                        <a href="">10340 Ridgeland Ave, Chicago Ridge, IL 60415, USA</a>
-                    </address>
-                    <ul>
-                        <li>
-                            <p>Monday - Friday</p>
-                            <p>06:00 AM - 10:00 PM</p>
-                        </li>
-                        <li>
-                            <p>Saturday - Sunday</p>
-                            <p>08:00 AM - 16:00 PM</p>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li><a href="">+61(0) 383 766 284</a></li>
-                        <li><a href="">noreply@envato.com</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <h3>food truck</h3>
-                    <address>
-                        <p>Los Angeles</p>
-                        <a href="">1003 Manhattan Ave, Manhattan Beach, CA 90263, USA</a>
-                    </address>
-                    <ul>
-                        <li>
-                            <p>Monday - Friday</p>
-                            <p>06:00 AM - 10:00 PM</p>
-                        </li>
-                        <li>
-                            <p>Saturday - Sunday</p>
-                            <p>08:00 AM - 16:00 PM</p>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li><a href="">+61(0) 383 766 284</a></li>
-                        <li><a href="">noreply@envato.com</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <h3>cafe</h3>
-                    <address>
-                        <p>New York</p>
-                        <a href="">726 Sterling Pl, Brooklyn, NY 11222, USA</a>
-                    </address>
-                    <ul>
-                        <li>
-                            <p>Monday - Friday</p>
-                            <p>06:00 AM - 10:00 PM</p>
-                        </li>
-                        <li>
-                            <p>Saturday - Sunday</p>
-                            <p>08:00 AM - 16:00 PM</p>
-                        </li>
-                    </ul>
-                </li>
-                <ul>
-                    <li><a href="">+61(0) 383 766 284</a></li>
-                    <li><a href="">noreply@envato.com</a></li>
+                <ul class="hero__list">
+                    <li class="hero__list--item">
+                        <span class="hero-item__num">16</span>
+                        <p class="hero-item__text">cafes</p>
+                    </li>
+                    <li class="hero__list--item">
+                        <span class="hero-item__num">23</span>
+                        <p class="hero-item__text">food trucks</p>
+                    </li>
                 </ul>
-            </ul>
-            <button type="button">Our Locations</button>
-            <button type="button">Franchise</button>
+                <button class="btn-border" type="button">Products</button>
+                <button class="btn-transtarent" type="button">How it’s made?</button>
+                <p class="hero__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                </p>
+            </div>
+
+        </section>
+        <section class="products">
+            <div class="container">
+                <p class="products__text">100% natural</p>
+                <h2 class="products__title">products</h2>
+
+                <ul class="products__list">
+                    <li class="products__list--item">
+                        <img class="products__list--pick" src="./img/ice-min.jpg" alt="">
+                        <h3 class="products__sec-title">ice cream</h3>
+                        <p class="products__text">Soft ice cream with a delicate taste. Made with milk, cream, sugar and
+                            natural stabilizer</p>
+                    </li>
+                    <li class="products__list--item">
+                        <img class="products__list--pick" src="./img/cofe-min.jpg" alt="">
+                        <h3 class="products__sec-title">ice coffee</h3>
+                        <p class="products__text">Fragrant invigorating drink created from 100% natural ingredients
+                            without the use of
+                            preservatives and flavor enhancers</p>
+                    </li>
+                    <li class="products__list--item">
+                        <img class="products__list--pick" src="./img/shake-min.jpg" alt="">
+                        <h3 class="products__sec-title">milkshakes</h3>
+                        <p class="products__text">Sweet drinks based on milk and ice cream, supplemented with syrups,
+                            fruits, berries and other
+                            sweets of your choice</p>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+        <section class="about-adv">
+            <div class="container">
+                <p class="about-adv__title-text">tradition and love</p>
+                <h2 class="about-adv__title">how it’s made?</h2>
+
+                <img class="about-adv__pick" src="./img/aminal-min.jpg" alt="">
+                <ul class="made__list">
+                    <li class="made__item">
+                        <p class="about-adv__text">Ice is a place where you will become not only a little happier, but
+                            also healthier. Health is
+                            the
+                            main value for us, and
+                            we follow it when creating our handmade desserts.</p>
+                    </li>
+                    <li class="made__item">
+                        <p class="about-adv__text">We use traditional recipes and 100% natural ingredients. Our products
+                            are so natural that
+                            they
+                            can be given to children
+                            from the age of three years. Sweets lovers can expect 55 types of ice cream, 15 types of
+                            coffee
+                            and 23 milkshakes.</p>
+                    </li>
+                    <li class="made__item">
+                        <p class="about-adv__text">This is enough to choose ice cream and coffee for any mood!</p>
+                    </li>
+                </ul>
+                <button class="btn" type="button">Read more</button>
+                <ul class="icon-list">
+                    <li class="icon-list__item">
+                        <svg class="icon-item" width="50" height="50">
+                            <use href="./img/symbol-defs.svg#icon-cow"></use>
+                        </svg>
+                        <span class="icon-num">721</span>
+                        <p class="icon-text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+                    </li>
+                    <li class="icon-list__item">
+                        <svg class="icon-item" width="50" height="50">
+                            <use href="./img/symbol-defs.svg#icon-weight"></use>
+                        </svg>
+                        <span class="icon-num">16kg</span>
+                        <p class="icon-text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+                    </li>
+                    <li class="icon-list__item">
+                        <svg class="icon-item" width="50" height="50">
+                            <use href="./img/symbol-defs.svg#icon-ice-crema"></use>
+                        </svg>
+                        <span class="icon-num">84</span>
+                        <p class="icon-text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="contacts">
+            <div class="container">
+                <ul class="contacts__list">
+                    <li class="contacts__list--item">
+                        <span class="contacts__company">cafe</span>
+                        <address class="contacts__address">
+                            <p class="contacts__text">Chicago</p>
+                            <a href="" class="contacts__link">10340 Ridgeland Ave, Chicago Ridge, IL 60415, USA</a>
+                        </address>
+                        <ul class="work-time__list">
+                            <li class="work-time__list--item">
+                                <p class="work-time__list--text">Monday - Friday</p>
+                                <p class="work-time__list--time">06:00 AM - 10:00 PM</p>
+                            </li>
+                            <li class="work-time__list--item">
+                                <p class="work-time__list--text">Saturday - Sunday</p>
+                                <p class="work-time__list--time">08:00 AM - 16:00 PM</p>
+                            </li>
+                        </ul>
+                        <ul class="list-link">
+                            <li class="list-link__item">
+                                <a class="cont-link" href="tel:+610383766284">+61(0) 383 766 284</a>
+                            </li>
+                            <li class="list-link__item"><a class="cont-link"
+                                    href="mailto:noreply@envato.com">noreply@envato.com</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="contacts__list--item">
+                        <span class="contacts__company">food truck</span>
+                        <address class="contacts__address">
+                            <p class="contacts__text">Los Angeles</p>
+                            <a href="" class="contacts__link">1003 Manhattan Ave, Manhattan Beach, CA 90263, USA</a>
+                        </address>
+                        <ul class="work-time__list">
+                            <li class="work-time__list--item">
+                                <p class="work-time__list--text">Monday - Friday</p>
+                                <p class="work-time__list--time">06:00 AM - 10:00 PM</p>
+                            </li>
+                            <li class="work-time__list--item">
+                                <p class="work-time__list--text">Saturday - Sunday</p>
+                                <p class="work-time__list--time">08:00 AM - 16:00 PM</p>
+                            </li>
+                        </ul>
+                        <ul class="list-link">
+                            <li class="list-link__item">
+                                <a class="cont-link" href="tel:+610383766284">+61(0) 383 766 284</a>
+                            </li>
+                            <li class="list-link__item">
+                                <a class="cont-link" href="mailto:noreply@envato.com">noreply@envato.com</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="contacts__list--item">
+                        <span class="contacts__company">cafe</span>
+                        <address class="contacts__address">
+                            <p class="contacts__text">New York</p>
+                            <a href="" class="contacts__link">726 Sterling Pl, Brooklyn, NY 11222, USA</a>
+                        </address>
+                        <ul class="work-time__list">
+                            <li class="work-time__list--item">
+                                <p class="work-time__list--text">Monday - Friday</p>
+                                <p class="work-time__list--time">06:00 AM - 10:00 PM</p>
+                            </li>
+                            <li class="work-time__list--item">
+                                <p class="work-time__list--text">Saturday - Sunday</p>
+                                <p class="work-time__list--time">08:00 AM - 16:00 PM</p>
+                            </li>
+                        </ul>
+                        <ul class="list-link">
+                            <li class="list-link__item">
+                                <a class="cont-link" href="tel:+610383766284">+61(0) 383 766 284</a>
+                            </li>
+                            <li class="list-link__item">
+                                <a class="cont-link" href="mailto:noreply@envato.com">noreply@envato.com</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <button class="btn" type="button">Our Locations</button>
+                <button class="btn-border" type="button">Franchise</button>
+            </div>
         </section>
     </main>
     <footer>
         <div class="container">
-            <div>
-                <h2>homemade ice cream made</h2>
-                <p>with passion</p>
+            <div class="how">
+                <h2 class="how__title">homemade ice cream made</h2>
+                <p class="how__text">with passion</p>
             </div>
         </div>
-        <div>
-            <ul>
-                <li>
-                    <svg>
-                        <use></use>
+        <div class="icon__block">
+            <ul class="mess__list">
+                <li class="mess__list--item">
+                    <svg class="icon-mess" width="34" height="34">
+                        <use href="./img/symbol-defs.svg#icon-github"></use>
                     </svg>
                 </li>
-                <li>
-                    <svg>
-                        <use></use>
+                <li class="mess__list--item">
+                    <svg class="icon-mess" width="34" height="34">
+                        <use href="./img/symbol-defs.svg#icon-telegram"></use>
                     </svg>
                 </li>
-                <li>
-                    <svg>
-                        <use></use>
+                <li class="mess__list--item">
+                    <svg class="icon-mess" width="34" height="34">
+                        <use href="./img/symbol-defs.svg#icon-group"></use>
                     </svg>
                 </li>
             </ul>
         </div>
-        <div>
-
+        <div class="cont-block">
+            <a href="tel:+610383766284"><span>Feel free to contact </span>+61 (0) 383 766 284</a>
         </div>
     </footer>
 </body>

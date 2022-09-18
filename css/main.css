@@ -261,6 +261,11 @@ summary {
   display: list-item;
 }
 
+body {
+  background-color: #84a278;
+  font-family: 'Montserrat', sans-serif;
+}
+
 ul {
   list-style: none;
   padding: 0;
