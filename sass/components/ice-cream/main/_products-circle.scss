@@ -1,0 +1,54 @@
+.products__list--pick {
+  border-radius: 50%;
+  margin: 0 auto;
+  width: 200px;
+}
+
+.products-box {
+  position: relative;
+  margin: 0 auto;
+  width: 280px;
+  height: 420px;
+  border-radius: 24px;
+}
+.products-box--green {
+  background-color: $color-bg-light-green;
+}
+.products-box--yellow {
+  background-color: $color-bg-light-yellow;
+}
+.products-box--brown {
+  background-color: $main-orange;
+}
+
+.circle {
+  @include shadow (200px, 211px, -100px, 50%)
+}
+
+.circle--green {
+  background: linear-gradient(
+      0deg,
+      rgba(156, 190, 143, 0.7),
+      rgba(156, 190, 143, 0.7)
+    ),
+    #d9d9d9;
+  box-shadow: 0px 5.34219px 20.0332px rgba(10, 136, 23, 0.25);
+}
+.circle--yellow {
+  background: linear-gradient(
+      0deg,
+      rgba(248, 210, 78, 0.7),
+      rgba(248, 210, 78, 0.7)
+    ),
+    #d9d9d9;
+  box-shadow: 0px 5.40397px 20.2649px rgba(153, 114, 23, 0.25);
+}
+.circle--brown {
+  background: linear-gradient(
+      0deg,
+      rgba(213, 117, 63, 0.7),
+      rgba(213, 117, 63, 0.7)
+    ),
+    #d9d9d9;
+  box-shadow: 0px 5.41333px 20.3px rgba(0, 0, 0, 0.25);
+}

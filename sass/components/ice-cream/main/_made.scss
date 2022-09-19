@@ -1,0 +1,33 @@
+.made__list {
+  margin-top: 40px;
+}
+.made__item {
+  @media screen and (max-width: 767px) {
+    &:first-child {
+      margin-bottom: 4px;
+    }
+  }
+  &:last-child {
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 767px) {
+  &:nth-child(even){
+    margin-bottom: 20px;
+  }
+}
+}
+.made__text {
+  margin: 0 auto;
+
+  width: 220px;
+  font-size: 12px;
+  line-height: 176%;
+  /* or 21px */
+
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: $main-light;
+}

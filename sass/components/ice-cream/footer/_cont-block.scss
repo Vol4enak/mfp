@@ -1,0 +1,18 @@
+.cont-block {
+  margin-top: 38px;
+}
+.cont__link {
+  display: block;
+  margin-left: auto;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 186%;
+  /* identical to box height, or 22px */
+
+  text-align: right;
+
+  color: $main-dark;
+}
+.cont__text {
+  color: $main-light;
+}

@@ -1,6 +1,7 @@
 body {
   background-color: #84a278;
-  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.04em;
+  font-family: "Montserrat", sans-serif;
 }
 
 ul {
@@ -42,12 +43,27 @@ img {
 button {
   font-family: inherit;
   display: block;
+  padding: 0;
+  border: 0;
 }
 
 address {
   font-style: normal;
 }
 
-.container{
-  @extend %container
+.container {
+  @extend %container;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }

@@ -16,33 +16,42 @@
 
 <body>
     <header class="header">
-       <div class="container">
-        <nav class="header__nav">
-            <a href="" class="logo">
-                <svg class="logo-icon" width="60" height="65">
-                    <use href="./img/symbol-defs.svg#icon-Logo">
-        
-                    </use>
-                </svg>
-            </a>
-            <ul class="menu__list">
-                <li class="menu__list--item">
-                    <a href="" class="menu__list--link">Home</a>
-                </li>
-                <li class="menu__list--item">
-                    <a href="" class="menu__list--link">How it’s made?</a>
-                </li>
-                <li class="menu__list--item">
-                    <a href="" class="menu__list--link">Our products</a>
-                </li>
-                <li class="menu__list--item">
-                    <a href="" class="menu__list--link">Contact</a>
-                </li>
-            </ul>
-        
-        </nav>
-        <button class="btn" type="button">Buy now</button>
-        <!-- <div class="menu-container backdrop__is--hidden" js-menu-container>
+        <div class="container">
+            <nav class="header__nav">
+                <a href="" class="logo">
+                    <svg class="logo-icon" width="60" height="65">
+                        <use href="./img/symbol-defs.svg#icon-Logo">
+
+                        </use>
+                    </svg>
+                </a>
+                <button type="button" class="btn-menu">
+                    <svg width="32" height="32">
+                        <use href="./img/symbol-defs.svg#icon-open-menu">
+
+                        </use>
+                    </svg>
+                </button>
+
+
+                <ul class="menu__list">
+                    <li class="menu__list--item">
+                        <a href="" class="menu__list--link">Home</a>
+                    </li>
+                    <li class="menu__list--item">
+                        <a href="" class="menu__list--link">How it’s made?</a>
+                    </li>
+                    <li class="menu__list--item">
+                        <a href="" class="menu__list--link">Our products</a>
+                    </li>
+                    <li class="menu__list--item">
+                        <a href="" class="menu__list--link">Contact</a>
+                    </li>
+                </ul>
+
+            </nav>
+            <button class="btn btn-header" type="button">Buy now</button>
+            <!-- <div class="menu-container backdrop__is--hidden" js-menu-container>
         
             <div class="mobile-menu">
                 <button js-close-menu class="mobile__button--close backdrop__button--close-hover" type="button"
@@ -95,7 +104,7 @@
                 </div>
             </div>
         </div> -->
-       </div>
+        </div>
     </header>
     <main class="main-page">
         <section class="hero">
@@ -112,43 +121,108 @@
                         <p class="hero-item__text">food trucks</p>
                     </li>
                 </ul>
-                <button class="btn-border" type="button">Products</button>
-                <button class="btn-transtarent" type="button">How it’s made?</button>
+                <div class="hero-btn">
+                    <button class="btn-border" type="button">Products</button>
+                    <button class="btn-transtarent" type="button">How it’s made?</button>
+                </div>
+
                 <p class="hero__text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et
                 </p>
+
+                <picture>
+                    <source srcset="
+                   ./img/ice-cream/ice-dec.png 1x, 
+                   ./img/ice-cream/ice-dec@2x.png 2x" media="(min-width:1200px)">
+                    <source srcset="
+                   ./img/ice-cream/ice-tab.png 1x, 
+                   ./img/ice-cream/ice-tab@2x.png 2x" media="(min-width:768px)">
+                    <source srcset=
+                "   ./img/ice-cream/ice-mob.png 1x,
+                    ./img/ice-cream/ice-mob-@2x.png 2x" media="(min-width:320px)">
+                    <img class="hero-ice" src="./img/ice-cream/ice-dec.png" width="170" alt="ice-cream">
+                </picture>
+                    
             </div>
 
         </section>
         <section class="products">
             <div class="container">
-                <p class="products__text">100% natural</p>
+                <p class="products__text-title">100% natural</p>
                 <h2 class="products__title">products</h2>
 
                 <ul class="products__list">
                     <li class="products__list--item">
-                        <picture>
-                            <source srcset="./img" >
-                        </picture>
-                        <img class="products__list--pick" src="./img/ice-min.jpg" alt="ice-cream">
-                        <h3 class="products__sec-title">ice cream</h3>
-                        <p class="products__text">Soft ice cream with a delicate taste. Made with milk, cream, sugar and
-                            natural stabilizer</p>
+                        <div class="products-box products-box--green">
+                            <div class="circle circle--green">
+                                <picture>
+
+                                    <source srcset="./img/just-ice/cone-ice-min.jpg 1x,
+                                     ./img/just-ice/cone-ice@2x-min.jpg 2x" media="(min-width:768px)">
+
+                                    <source srcset="./img/just-ice/cone-ice-mob-min.jpg 1x,
+                            ./img/just-ice/cone-ice-mob@2x-min.jpg 2x" media="(min-width:320px)">
+
+                                    <img class="products__list--pick" src="./img/just-ice/cone-ice-min.jpg"
+                                        alt="ice-cream" width="301">
+
+                                </picture>
+                            </div>
+                            <h3 class="products__sec-title">ice cream</h3>
+                            <p class="products__text">Soft ice cream with a delicate taste. Made with milk, cream,
+                                sugar and natural stabilizer</p>
+                        </div>
+
                     </li>
                     <li class="products__list--item">
-                        <img class="products__list--pick" src="./img/cofe-min.jpg" alt="cofe">
-                        <h3 class="products__sec-title">ice coffee</h3>
-                        <p class="products__text">Fragrant invigorating drink created from 100% natural ingredients
-                            without the use of
-                            preservatives and flavor enhancers</p>
+                        <div class="products-box products-box--yellow">
+                            <div class="circle circle--yellow">
+                                <picture>
+
+                                    <source srcset="./img/coffee/coffee-min.jpg 1x,
+                                    ./img/coffee/coffee-min@2x.jpg 2x" media="(min-width:768px)">
+
+                                    <source srcset="./img/coffee/coffee-mob-min.jpg 1x,
+                                    ./img/coffee/coffee-mob@2x-min.jpg 2x" media="(min-width:320px)">
+
+                                    <img class="products__list--pick" src="./img/coffee/coffee-min.jpg" alt="cofe"
+                                        width="301">
+
+                                </picture>
+                            </div>
+                            <h3 class="products__sec-title">ice coffee</h3>
+                            <p class="products__text">Fragrant invigorating drink created from 100% natural
+                                ingredients
+                                without the use of
+                                preservatives and flavor enhancers</p>
+                        </div>
+
+
                     </li>
                     <li class="products__list--item">
-                        <img class="products__list--pick" src="./img/shake-min.jpg" alt="shake">
-                        <h3 class="products__sec-title">milkshakes</h3>
-                        <p class="products__text">Sweet drinks based on milk and ice cream, supplemented with syrups,
-                            fruits, berries and other
-                            sweets of your choice</p>
+                        <div class="products-box products-box--brown">
+                            <div class="circle circle--brown">
+                                <picture>
+
+                                    <source srcset="./img/shake/shake-min.jpg 1x,
+                            ./img/shake/shake-min@2x.jpg 2x" media="(min-width:768px)">
+
+                                    <source srcset="./img/shake/shake-mob-min.jpg 1x,
+                            ./img/shake/shake-mob@2x-min.jpg 2x" media="(min-width:320px)">
+
+                                    <img class="products__list--pick" src="./img/shake/shake-min.jpg" alt="shake"
+                                        width="301">
+
+                                </picture>
+                            </div>
+                            <h3 class="products__sec-title">milkshakes</h3>
+                            <p class="products__text">Sweet drinks based on milk and ice cream, supplemented with
+                                syrups, fruits, berries and other
+                                sweets of your choice</p>
+
+                        </div>
+
                     </li>
                 </ul>
             </div>
@@ -159,17 +233,33 @@
                 <p class="about-adv__title-text">tradition and love</p>
                 <h2 class="about-adv__title">how it’s made?</h2>
 
-                <img class="about-adv__pick" src="./img/aminal-min.jpg" alt="">
+                <div class="cow-box">
+                    <div class="range">
+                        <picture>
+                            <source srcset="wi
+                    ./img/cow/cow-desk-min.jpg 1x,
+                    ./img/cow/cow-desk@2x.jpg 2x" media="(min-width:1200px)">
+                            <source srcset="
+                    ./img/cow/cow-tab-min.jpg 1x,
+                    ./img/cow/cow-tab@2x-min.jpg 2x" media="(min-width:768px)">
+                            <source srcset="
+                    ./img/cow/cow-mob-min.jpg 1x,
+                    ./img/cow/cow-mob@2x-min.jpg 2x" media="(min-width:320px)">
+                            <img class="about-adv__pick" src="./img/cow/cow-desk-min.jpg" alt="" width="500">
+                        </picture>
+                    </div>
+                </div>
+
                 <ul class="made__list">
                     <li class="made__item">
-                        <p class="about-adv__text">Ice is a place where you will become not only a little happier, but
+                        <p class="made__text">Ice is a place where you will become not only a little happier, but
                             also healthier. Health is
                             the
                             main value for us, and
                             we follow it when creating our handmade desserts.</p>
                     </li>
                     <li class="made__item">
-                        <p class="about-adv__text">We use traditional recipes and 100% natural ingredients. Our products
+                        <p class="made__text">We use traditional recipes and 100% natural ingredients. Our products
                             are so natural that
                             they
                             can be given to children
@@ -178,33 +268,77 @@
                             and 23 milkshakes.</p>
                     </li>
                     <li class="made__item">
-                        <p class="about-adv__text">This is enough to choose ice cream and coffee for any mood!</p>
+                        <p class="made__text">This is enough to choose ice cream and coffee for any mood!</p>
                     </li>
                 </ul>
-                <button class="btn" type="button">Read more</button>
+                <button class="btn" type="button">Read more
+                    <svg class="icon-arrow" width="12" height="12">
+                        <use href="./img/symbol-defs.svg#icon-arrow"></use>
+                    </svg>
+                </button>
                 <ul class="icon-list">
                     <li class="icon-list__item">
-                        <svg class="icon-item" width="50" height="50">
-                            <use href="./img/symbol-defs.svg#icon-cow"></use>
-                        </svg>
-                        <span class="icon-num">721</span>
+                        <div class="icon-box">
+                            <svg class="icon-item" width="36" height="36">
+                                <use href="./img/symbol-defs.svg#icon-cow"></use>
+                            </svg>
+                        </div>
+
+
+                        <p class="icon-num">721</p>
                         <p class="icon-text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
                     </li>
                     <li class="icon-list__item">
-                        <svg class="icon-item" width="50" height="50">
-                            <use href="./img/symbol-defs.svg#icon-weight"></use>
-                        </svg>
-                        <span class="icon-num">16kg</span>
+                        <div class="icon-box">
+                            <svg class="icon-item" width="36" height="36">
+                                <use href="./img/symbol-defs.svg#icon-weight"></use>
+                            </svg>
+                        </div>
+                        <p class="icon-num">16kg</p>
                         <p class="icon-text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
                     </li>
                     <li class="icon-list__item">
-                        <svg class="icon-item" width="50" height="50">
-                            <use href="./img/symbol-defs.svg#icon-ice-crema"></use>
-                        </svg>
-                        <span class="icon-num">84</span>
+                        <div class="icon-box">
+                            <svg class="icon-item" width="36" height="36">
+                                <use href="./img/symbol-defs.svg#icon-ice-crema"></use>
+                            </svg>
+                        </div>
+                        <p class="icon-num">84</p>
                         <p class="icon-text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
                     </li>
                 </ul>
+            </div>
+        </section>
+        <section class="cust-rews">
+            <div class="container">
+                <div class="rews-pick-box">
+                    <picture>
+                        <source srcset="./img/unsplash.jpg" media="(min-width:1200px)">
+                        <source srcset="./img/unsplash-tab.jpg" media="(min-width:768px)">
+                        <source srcset="./img/unsplash-mob.jpg" media="(min-width:320px)">
+                        <img class="cust-rews__unsplashk" src="./img/unsplash.jpg" alt="" width="1014">
+                    </picture>
+                </div>
+
+
+
+                <img src="./img/girl.png" alt="" class="cust-rews__girl">
+                <div class="cust-box">
+                    <p class="cust__text">I love visiting your cafe. You prepare the most delicious ice cream in Los
+                        Angeles! In addition,
+                        you
+                        have
+                        beautiful
+                        serving, cozy atmosphere and polite staff.
+                    </p>
+                </div>
+
+                <p class="cust_place">Emily, Los Angeles</p>
+                <div class="dots">
+                    <div class="sing-dot"></div>
+                    <div class="sing-dot"></div>
+                    <div class="sing-dot"></div>
+                </div>
             </div>
         </section>
         <section class="contacts">
@@ -286,43 +420,59 @@
                         </ul>
                     </li>
                 </ul>
-                <button class="btn" type="button">Our Locations</button>
-                <button class="btn-border" type="button">Franchise</button>
+                <button class="btn btn--cont" type="button">Our Locations
+                    <svg class="icon-arrow" width="12" height="12">
+                        <use href="./img/symbol-defs.svg#icon-arrow"></use>
+                    </svg>
+                </button>
+                <button class="btn-border btn-border--cont" type="button">Franchise
+                    <svg class="icon-arrow" width="12" height="12">
+                        <use href="./img/symbol-defs.svg#icon-arrow"></use>
+                    </svg>
+                </button>
             </div>
         </section>
     </main>
     <footer>
-       <div class="container">
-        <div class="container">
-            <div class="how">
-                <h2 class="how__title">homemade ice cream made</h2>
-                <p class="how__text">with passion</p>
+        <div class="helper">
+            <div class="container bordline">
+                <div class="cont-block">
+                    <div class="how">
+                        <h2 class="how__title">homemade ice cream made</h2>
+                        <p class="how__text">with passion</p>
+                    </div>
+                </div>
+                <div class="icon__block">
+                    <ul class="mess__list">
+                        <li class="mess__list--item">
+                            <svg class="icon-mess" width="34" height="34">
+                                <use href="./img/symbol-defs.svg#icon-github"></use>
+                            </svg>
+                        </li>
+                        <li class="mess__list--item">
+                            <svg class="icon-mess" width="34" height="34">
+                                <use href="./img/symbol-defs.svg#icon-telegram"></use>
+                            </svg>
+                        </li>
+                        <li class="mess__list--item">
+                            <svg class="icon-mess" width="34" height="34">
+                                <use href="./img/symbol-defs.svg#icon-group"></use>
+                            </svg>
+                        </li>
+                    </ul>
+                </div>
+                <div class="cont-block">
+                    <a class="cont__link" href="tel:+610383766284"><span class="cont__text">Feel free to contact
+                        </span>+61 (0) 383 766 284</a>
+                </div>
+            </div>
+            <div class="copyrigth">
+                <p class=" copy__text">&#169; 2022 - IceCream.
+                    All Rights Reserved.</p>
             </div>
         </div>
-        <div class="icon__block">
-            <ul class="mess__list">
-                <li class="mess__list--item">
-                    <svg class="icon-mess" width="34" height="34">
-                        <use href="./img/symbol-defs.svg#icon-github"></use>
-                    </svg>
-                </li>
-                <li class="mess__list--item">
-                    <svg class="icon-mess" width="34" height="34">
-                        <use href="./img/symbol-defs.svg#icon-telegram"></use>
-                    </svg>
-                </li>
-                <li class="mess__list--item">
-                    <svg class="icon-mess" width="34" height="34">
-                        <use href="./img/symbol-defs.svg#icon-group"></use>
-                    </svg>
-                </li>
-            </ul>
-        </div>
-        <div class="cont-block">
-            <a href="tel:+610383766284"><span>Feel free to contact </span>+61 (0) 383 766 284</a>
-        </div>
-       </div>
     </footer>
+    <script src="./js/modile-menu.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,30 @@
+.hero__title {
+  margin-bottom: 32px;
+  width: 247px;
+  font-family: "Seymour One";
+  font-size: 26px;
+  line-height: 33px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: $main-light;
+}
+.hero__list {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+}
+.hero-btn {
+  display: flex;
+  gap: 8px;
+}
+
+.hero__text {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+}
+.hero-ice {
+  margin-left: 85px;
+  margin-right: 78px;
+  filter: drop-shadow(5px 5px 40px rgba(252, 252, 252, 0.44));
+}

@@ -1,0 +1,57 @@
+.products {
+  background-image: url(../img/bgc/bgc-ice-2-min.jpg);
+  padding: 60px 0px;
+}
+.products__text-title {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+
+  text-align: center;
+  text-transform: uppercase;
+  color: $main-dark;
+}
+.products__title {
+  margin-bottom: 148px;
+
+  font-size: 30px;
+  line-height: 38px;
+
+  font-family: "Seymour One";
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: $main-dark;
+}
+
+.products__sec-title {
+  padding-top: 123px;
+  margin-bottom: 40px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: $main-dark;
+}
+.products__text {
+  margin: 0 auto;
+  margin-bottom: 110px;
+  width: 200px;
+
+  font-size: 14px;
+  line-height: 176%;
+  /* or 25px */
+
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: $main-dark;
+}
+
+.products__list--item {
+  &:not(:last-child) {
+    margin-bottom: 164px;
+  }
+}

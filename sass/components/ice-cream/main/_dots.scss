@@ -1,0 +1,14 @@
+.dots {
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 395px;
+  gap: 18px;
+  width: 72px;
+  height: 12px;
+}
+.sing-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: $main-dots-disabled;
+}

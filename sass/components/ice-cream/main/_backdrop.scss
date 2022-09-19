@@ -43,12 +43,14 @@
   @media screen and (min-width: 320px) and (max-width:479px){
     width: 100%;
   }
-  
+
   @media screen and (min-width: 1200px) {
     width: 528px;
     min-height: 581px;
   }
+ 
 }
+
 
 .backdrop__button--close {
   display: flex;

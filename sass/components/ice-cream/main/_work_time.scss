@@ -1,0 +1,22 @@
+.work-time__list {
+    padding: 24px 0px;
+    border-bottom: 1px solid #E1E1E1;
+}
+.work-time__list--item {
+    &:first-child{
+        margin-bottom: 8px;
+    }
+}
+.work-time__list--text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+
+  color: $main-dark;
+}
+.work-time__list--time {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 186%;
+  color: $main-grey-disabled;
+}

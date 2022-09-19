@@ -1,0 +1,41 @@
+.cust-rews {
+  background-image: url(../img/bgc/bgc-ice-4-min.jpg);
+}
+
+.cust-rews__girl {
+  margin: 0 auto;
+  margin-bottom: 32px;
+  width: 85px;
+  border-radius: 50%;
+}
+.cust__text {
+  padding: 34px 39px;
+
+  font-size: 12px;
+  line-height: 255%;
+  /* or 31px */
+
+  text-align: center;
+
+  color: $main-light;
+}
+.cust-box {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  width: 280px;
+  background-color: $color-bg-main;
+  border-radius: 10px;
+}
+.cust_place {
+
+  margin: 0 auto;
+  padding-bottom: 12px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 186%;
+  /* identical to box height, or 37px */
+
+  text-align: center;
+
+  color: $main-dark;
+}

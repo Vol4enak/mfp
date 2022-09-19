@@ -1,0 +1,68 @@
+.btn {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 12px 34px;
+  gap: 6px;
+  background: $main-yellow;
+  border-radius: 10px;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: $main-dark;
+}
+
+.btn-border {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 7px 11px;
+  border: 2px solid $main-yellow;
+  border-radius: 8px;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 10px;
+}
+.btn-transtarent {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 10px;
+  color: $main-yellow;
+  text-decoration-line: underline;
+  background-color: transparent;
+}
+
+.btn--cont {
+  margin: 0 auto;
+  margin-bottom: 16px;
+  width: 196px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: $main-dark;
+}
+
+.btn-border--cont {
+  gap: 6px;
+  margin: 0 auto;
+  padding: 12px 46px;
+  width: 196px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: $main-dark;
+}
+
+.icon-arrow {
+  fill: transparent;
+  stroke: currentColor;
+}
