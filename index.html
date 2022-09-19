@@ -16,11 +16,12 @@
 
 <body>
     <header class="header">
+       <div class="container">
         <nav class="header__nav">
             <a href="" class="logo">
                 <svg class="logo-icon" width="60" height="65">
                     <use href="./img/symbol-defs.svg#icon-Logo">
-
+        
                     </use>
                 </svg>
             </a>
@@ -38,9 +39,10 @@
                     <a href="" class="menu__list--link">Contact</a>
                 </li>
             </ul>
-
+        
         </nav>
         <button class="btn" type="button">Buy now</button>
+       </div>
     </header>
     <main class="main-page">
         <section class="hero">
@@ -73,20 +75,23 @@
 
                 <ul class="products__list">
                     <li class="products__list--item">
-                        <img class="products__list--pick" src="./img/ice-min.jpg" alt="">
+                        <picture>
+                            <source srcset="./img" >
+                        </picture>
+                        <img class="products__list--pick" src="./img/ice-min.jpg" alt="ice-cream">
                         <h3 class="products__sec-title">ice cream</h3>
                         <p class="products__text">Soft ice cream with a delicate taste. Made with milk, cream, sugar and
                             natural stabilizer</p>
                     </li>
                     <li class="products__list--item">
-                        <img class="products__list--pick" src="./img/cofe-min.jpg" alt="">
+                        <img class="products__list--pick" src="./img/cofe-min.jpg" alt="cofe">
                         <h3 class="products__sec-title">ice coffee</h3>
                         <p class="products__text">Fragrant invigorating drink created from 100% natural ingredients
                             without the use of
                             preservatives and flavor enhancers</p>
                     </li>
                     <li class="products__list--item">
-                        <img class="products__list--pick" src="./img/shake-min.jpg" alt="">
+                        <img class="products__list--pick" src="./img/shake-min.jpg" alt="shake">
                         <h3 class="products__sec-title">milkshakes</h3>
                         <p class="products__text">Sweet drinks based on milk and ice cream, supplemented with syrups,
                             fruits, berries and other
@@ -234,6 +239,7 @@
         </section>
     </main>
     <footer>
+       <div class="container">
         <div class="container">
             <div class="how">
                 <h2 class="how__title">homemade ice cream made</h2>
@@ -262,6 +268,7 @@
         <div class="cont-block">
             <a href="tel:+610383766284"><span>Feel free to contact </span>+61 (0) 383 766 284</a>
         </div>
+       </div>
     </footer>
 </body>
 
