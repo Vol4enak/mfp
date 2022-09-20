@@ -4,6 +4,7 @@
   margin: 0 auto;
   padding: 12px 34px;
   gap: 6px;
+  // height: 42px;
   background: $main-yellow;
   border-radius: 10px;
 
@@ -12,6 +13,9 @@
   line-height: 18px;
   text-align: center;
   color: $main-dark;
+  @media screen and (min-width: 768px) {
+    margin: 0;
+  }
 }
 
 .btn-border {
@@ -26,6 +30,12 @@
   font-weight: 600;
   font-size: 8px;
   line-height: 10px;
+  @media screen and (min-width: 1200px) {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 12px 34px;
+  }
 }
 .btn-transtarent {
   display: flex;
@@ -37,6 +47,12 @@
   color: $main-yellow;
   text-decoration-line: underline;
   background-color: transparent;
+  @media screen and (min-width: 1200px) {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 12px 22px;
+  }
 }
 
 .btn--cont {

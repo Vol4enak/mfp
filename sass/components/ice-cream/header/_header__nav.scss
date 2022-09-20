@@ -1,12 +1,22 @@
 .header__nav {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin-top: 12px;
+  @media screen and (min-width: 768px) {
+    margin-top: 20px;
+  }
+
 }
+
 
 .btn-header {
   @media screen and (max-width: 767px) {
     display: none;
+  }
+  @media screen and (min-width: 768px) {
+    margin-left: auto;
+    margin-top: 24px;
   }
 }
 
@@ -15,9 +25,32 @@
   height: 32px;
   margin-left: auto;
   background-color: transparent;
+  @media screen and (min-width: 768px) {
+    margin-left: 440px;
+  }
+  @media screen and (min-width: 1200px) {
+    display: none;
+  }
 }
 
 .logo-icon {
-  width: 40px;
-  height: 37px;
+  width: 48px;
+  height: 44px;
+  @media screen and (min-width: 1200px) {
+    width: 60px;
+    height: 65px;
+  }
 }
+
+.header__container {
+  
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: center;
+  }
+ @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: center;
+  }
+}
+

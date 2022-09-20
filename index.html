@@ -16,8 +16,9 @@
 
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container header__container">
             <nav class="header__nav">
+
                 <a href="" class="logo">
                     <svg class="logo-icon" width="60" height="65">
                         <use href="./img/symbol-defs.svg#icon-Logo">
@@ -25,14 +26,6 @@
                         </use>
                     </svg>
                 </a>
-                <button type="button" class="btn-menu">
-                    <svg width="32" height="32">
-                        <use href="./img/symbol-defs.svg#icon-open-menu">
-
-                        </use>
-                    </svg>
-                </button>
-
 
                 <ul class="menu__list">
                     <li class="menu__list--item">
@@ -49,8 +42,21 @@
                     </li>
                 </ul>
 
+                <button type="button" class="btn-menu">
+                    <svg width="32" height="32">
+                        <use href="./img/symbol-defs.svg#icon-open-menu">
+
+                        </use>
+                    </svg>
+                </button>
             </nav>
-            <button class="btn btn-header" type="button">Buy now</button>
+            <button class="btn btn-header" type="button">Buy now
+                <svg class="icon-arrow" width="12" height="12">
+                    <use href="./img/symbol-defs.svg#icon-arrow">
+
+                    </use>
+                </svg>
+            </button>
             <!-- <div class="menu-container backdrop__is--hidden" js-menu-container>
         
             <div class="mobile-menu">
@@ -109,41 +115,65 @@
     <main class="main-page">
         <section class="hero">
             <div class="container">
-                <h1 class="hero__title">ice cream made with passion</h1>
+                <div class="hero-box">
+                    <h1 class="hero__title">ice cream made with <span class="hero__title--fs">passion</span></h1>
 
-                <ul class="hero__list">
-                    <li class="hero__list--item">
-                        <span class="hero-item__num">16</span>
-                        <p class="hero-item__text">cafes</p>
-                    </li>
-                    <li class="hero__list--item">
-                        <span class="hero-item__num">23</span>
-                        <p class="hero-item__text">food trucks</p>
-                    </li>
-                </ul>
+                    <ul class="hero__list">
+                        <li class="hero__list--item">
+                            <span class="hero-item__num">16</span>
+                            <span class="hero-item__text">cafes</span>
+                        </li>
+                        <li class="hero__list--item">
+                            <span class="hero-item__num">23</span>
+                            <span class="hero-item__text">food trucks</span>
+                        </li>
+                    </ul>
+                </div>
                 <div class="hero-btn">
                     <button class="btn-border" type="button">Products</button>
                     <button class="btn-transtarent" type="button">How it’s made?</button>
                 </div>
+                <div class="hero__helper-box">
+                    <picture>
+                        <source srcset="./img/big-ice-dek.png 1x" media="(min-width:1200px)">
+                        <img class="hero-dig-ice" src="./img/big-ice.png" alt="123123" width="255">
+                    </picture>
+                    <div class="hero-box-text">
+                        <p class="hero__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore
+                            et
+                        </p>
+                        <button class="arrow-btn" type="button">
+                            <svg class="long-arrow" width="40" height="15">
+                                <use href="./img/symbol-defs.svg#icon-long-arrow">
+                    
+                                </use>
+                            </svg>
+                        </button>
+                    
+                    </div>
+                </div>
+               
+                <div class="hero-pick-box">
+                    <picture>
 
-                <p class="hero__text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                </p>
-
-                <picture>
-                    <source srcset="
-                   ./img/ice-cream/ice-dec.png 1x, 
-                   ./img/ice-cream/ice-dec@2x.png 2x" media="(min-width:1200px)">
-                    <source srcset="
+                        <source srcset="
+                   ./img/ice-cream/ice-dek.png 1x, 
+                   ./img/ice-cream/ice-dek@2x.png 2x" media="(min-width:1200px)">
+                        <source srcset="
                    ./img/ice-cream/ice-tab.png 1x, 
                    ./img/ice-cream/ice-tab@2x.png 2x" media="(min-width:768px)">
-                    <source srcset=
-                "   ./img/ice-cream/ice-mob.png 1x,
+                        <source srcset="   ./img/ice-cream/ice-mob.png 1x,
                     ./img/ice-cream/ice-mob-@2x.png 2x" media="(min-width:320px)">
-                    <img class="hero-ice" src="./img/ice-cream/ice-dec.png" width="170" alt="ice-cream">
-                </picture>
-                    
+                        <img class="hero-ice" src="./img/ice-cream/ice-dek.png" width="484" alt="ice-cream">
+                    </picture>
+                </div>
+
+               
+
+
+
             </div>
 
         </section>
