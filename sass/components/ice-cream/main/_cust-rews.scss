@@ -5,12 +5,15 @@
 .cust-rews__girl {
   margin: 0 auto;
   margin-bottom: 32px;
+  margin-top: 60px;
   width: 85px;
   border-radius: 50%;
+  @media screen and (min-width:1200px) {
+    margin-top: 293px;
+  }
 }
 .cust__text {
   padding: 34px 39px;
-
   font-size: 12px;
   line-height: 255%;
   /* or 31px */
@@ -18,6 +21,13 @@
   text-align: center;
 
   color: $main-light;
+  @media screen and (min-width: 768px) {
+    padding: 29px 80px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 186%;
+    letter-spacing: 0.04em;
+  }
 }
 .cust-box {
   margin: 0 auto;
@@ -25,9 +35,11 @@
   width: 280px;
   background-color: $color-bg-main;
   border-radius: 10px;
+  @media screen and (min-width: 768px) {
+    width: 100%;
+  }
 }
 .cust_place {
-
   margin: 0 auto;
   padding-bottom: 12px;
   font-weight: 500;
@@ -38,4 +50,7 @@
   text-align: center;
 
   color: $main-dark;
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+  }
 }

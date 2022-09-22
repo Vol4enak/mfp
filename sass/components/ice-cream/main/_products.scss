@@ -1,6 +1,14 @@
 .products {
   background-image: url(../img/bgc/bgc-ice-2-min.jpg);
   padding: 60px 0px;
+  @media screen and (min-width: 768px) {
+    padding-top: 60px;
+    padding-bottom: 0;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-top: 60px;
+    padding-bottom: 0;
+  }
 }
 .products__text-title {
   font-weight: 800;
@@ -10,6 +18,15 @@
   text-align: center;
   text-transform: uppercase;
   color: $main-dark;
+  @media screen and(min-width:768px) {
+    font-size: 22px;
+    line-height: 27px;
+  }
+  @media screen and(min-width:1200px) {
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.04em;
+  }
 }
 .products__title {
   margin-bottom: 148px;
@@ -22,6 +39,16 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: $main-dark;
+  @media screen and (min-width: 768px) {
+    font-size: 34px;
+    line-height: 43px;
+    margin-bottom: 200px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 36px;
+    line-height: 45px;
+    margin-bottom: 303px;
+  }
 }
 
 .products__sec-title {
@@ -35,12 +62,20 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: $main-dark;
+  @media screen and (min-width: 768px) {
+    font-size: 22px;
+    line-height: 27px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 30px;
+    line-height: 37px;
+    padding-top: 165px;
+  }
 }
 .products__text {
   margin: 0 auto;
-  margin-bottom: 110px;
   width: 200px;
-
+  height: 124px;
   font-size: 14px;
   line-height: 176%;
   /* or 25px */
@@ -48,10 +83,43 @@
   text-align: center;
   letter-spacing: 0.04em;
   color: $main-dark;
+  @media screen and (min-width: 768px) {
+    width: 172px;
+    height: 150px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 16px;
+    line-height: 176%;
+    width: 242px;
+    height: 142px;
+  }
+}
+
+.products__list {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    height: 500px;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    height: 590px;
+  }
 }
 
 .products__list--item {
   &:not(:last-child) {
     margin-bottom: 164px;
   }
+  @media screen and (min-width: 768px) {
+    margin: 0;
+  }
+}
+
+.arrow-box {
+  display: flex;
+  justify-content: center;
 }

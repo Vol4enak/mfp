@@ -6,7 +6,7 @@
   }
 }
 
-@mixin shadow ($width, $height, $top,$left){
+@mixin shadow ($width, $height, $top, $left){
   position: absolute;
   top: $top;
   left: $left;

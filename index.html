@@ -135,8 +135,13 @@
                 </div>
                 <div class="hero__helper-box">
                     <picture>
-                        <source srcset="./img/big-ice-dek.png 1x" media="(min-width:1200px)">
-                        <img class="hero-dig-ice" src="./img/big-ice.png" alt="123123" width="255">
+                        <source srcset="
+                                ./img/dig-ice-dek-min.png 1x, 
+                                ./img/dig-ice-dek@2x-min.png 2x" media="(min-width:1200px)">
+                        <source srcset="
+                                ./img/dig-ice-tab-min.png 1x, 
+                                ./img/dig-ice-tab@2x-min.png 2x" media="(min-width:768px)">
+                        <img class="hero-dig-ice" src="./img/dig-ice-dek-min.png" alt="123123" width="255">
                     </picture>
                     <div class="hero-box-text">
                         <p class="hero__text">
@@ -147,14 +152,14 @@
                         <button class="arrow-btn" type="button">
                             <svg class="long-arrow" width="40" height="15">
                                 <use href="./img/symbol-defs.svg#icon-long-arrow">
-                    
+
                                 </use>
                             </svg>
                         </button>
-                    
+
                     </div>
                 </div>
-               
+
                 <div class="hero-pick-box">
                     <picture>
 
@@ -170,7 +175,7 @@
                     </picture>
                 </div>
 
-               
+
 
 
 
@@ -202,8 +207,17 @@
                             <h3 class="products__sec-title">ice cream</h3>
                             <p class="products__text">Soft ice cream with a delicate taste. Made with milk, cream,
                                 sugar and natural stabilizer</p>
-                        </div>
+                            <div class="arrow-box">
+                                <button class="long-arrow-btn" type="button">
+                                    <svg class="long-arrow" width="40" height="15">
+                                        <use href="./img/symbol-defs.svg#icon-long-arrow">
 
+                                        </use>
+                                    </svg>
+                                </button>
+                            </div>
+
+                        </div>
                     </li>
                     <li class="products__list--item">
                         <div class="products-box products-box--yellow">
@@ -226,6 +240,15 @@
                                 ingredients
                                 without the use of
                                 preservatives and flavor enhancers</p>
+                            <div class="arrow-box">
+                                <button class="long-arrow-btn" type="button">
+                                    <svg class="long-arrow" width="40" height="15">
+                                        <use href="./img/symbol-defs.svg#icon-long-arrow">
+
+                                        </use>
+                                    </svg>
+                                </button>
+                            </div>
                         </div>
 
 
@@ -251,6 +274,16 @@
                                 syrups, fruits, berries and other
                                 sweets of your choice</p>
 
+                            <div class="arrow-box">
+                                <button class="long-arrow-btn" type="button">
+                                    <svg class="long-arrow" width="40" height="15">
+                                        <use href="./img/symbol-defs.svg#icon-long-arrow">
+
+                                        </use>
+                                    </svg>
+                                </button>
+                            </div>
+
                         </div>
 
                     </li>
@@ -262,50 +295,59 @@
             <div class="container">
                 <p class="about-adv__title-text">tradition and love</p>
                 <h2 class="about-adv__title">how it’s made?</h2>
-
-                <div class="cow-box">
-                    <div class="range">
-                        <picture>
-                            <source srcset="wi
+                <div class="about-box">
+                    <div class="cow-box">
+                        <div class="range">
+                            <picture>
+                                <source srcset="wi
                     ./img/cow/cow-desk-min.jpg 1x,
                     ./img/cow/cow-desk@2x.jpg 2x" media="(min-width:1200px)">
-                            <source srcset="
+                                <source srcset="
                     ./img/cow/cow-tab-min.jpg 1x,
                     ./img/cow/cow-tab@2x-min.jpg 2x" media="(min-width:768px)">
-                            <source srcset="
+                                <source srcset="
                     ./img/cow/cow-mob-min.jpg 1x,
                     ./img/cow/cow-mob@2x-min.jpg 2x" media="(min-width:320px)">
-                            <img class="about-adv__pick" src="./img/cow/cow-desk-min.jpg" alt="" width="500">
-                        </picture>
+                                <img class="about-adv__pick" src="./img/cow/cow-desk-min.jpg" alt="" width="500">
+                            </picture>
+                        </div>
                     </div>
+                    <div class="made-adout">
+                        <ul class="made__list">
+                            <li class="made__item">
+                                <p class="made__text made__text-first--fs">Ice is a place where you will become not only
+                                    a little happier,
+                                    but
+                                    also healthier. Health is
+                                    the
+                                    main value for us, and
+                                    we follow it when creating our handmade desserts.</p>
+                            </li>
+                            <li class="made__item">
+                                <p class="made__text">We use traditional recipes and 100% natural ingredients. Our
+                                    products
+                                    are so natural that
+                                    they
+                                    can be given to children
+                                    from the age of three years. Sweets lovers can expect 55 types of ice cream, 15
+                                    types of
+                                    coffee
+                                    and 23 milkshakes.</p>
+                            </li>
+                            <li class="made__item">
+                                <p class="made__text">This is enough to choose ice cream and coffee for any mood!</p>
+                            </li>
+                        </ul>
+                        <button class="btn btn-about" type="button">Read more
+                            <svg class="icon-arrow" width="12" height="12">
+                                <use href="./img/symbol-defs.svg#icon-arrow"></use>
+                            </svg>
+                        </button>
+                    </div>
+
                 </div>
 
-                <ul class="made__list">
-                    <li class="made__item">
-                        <p class="made__text">Ice is a place where you will become not only a little happier, but
-                            also healthier. Health is
-                            the
-                            main value for us, and
-                            we follow it when creating our handmade desserts.</p>
-                    </li>
-                    <li class="made__item">
-                        <p class="made__text">We use traditional recipes and 100% natural ingredients. Our products
-                            are so natural that
-                            they
-                            can be given to children
-                            from the age of three years. Sweets lovers can expect 55 types of ice cream, 15 types of
-                            coffee
-                            and 23 milkshakes.</p>
-                    </li>
-                    <li class="made__item">
-                        <p class="made__text">This is enough to choose ice cream and coffee for any mood!</p>
-                    </li>
-                </ul>
-                <button class="btn" type="button">Read more
-                    <svg class="icon-arrow" width="12" height="12">
-                        <use href="./img/symbol-defs.svg#icon-arrow"></use>
-                    </svg>
-                </button>
+
                 <ul class="icon-list">
                     <li class="icon-list__item">
                         <div class="icon-box">
@@ -343,15 +385,18 @@
             <div class="container">
                 <div class="rews-pick-box">
                     <picture>
-                        <source srcset="./img/unsplash.jpg" media="(min-width:1200px)">
-                        <source srcset="./img/unsplash-tab.jpg" media="(min-width:768px)">
-                        <source srcset="./img/unsplash-mob.jpg" media="(min-width:320px)">
-                        <img class="cust-rews__unsplashk" src="./img/unsplash.jpg" alt="" width="1014">
+                        <source srcset="
+                        ./img/unsplash-min.jpg 1x,
+                        ./img/unsplash@2x-dek-min.jpg 2x" media="(min-width:1200px)">
+                        <source srcset="
+                        ./img/unsplash-tab-min.jpg 1x,
+                         ./img/unsplash@2x-tab-min.jpg 2x" media="(min-width:768px)">
+                        <source srcset="
+                        ./img/unsplash-mob-min.jpg 1x, 
+                        ./img/unsplash@2x-mob-min.jpg 2x" media="(min-width:320px)">
+                        <img class="cust-rews__unsplashk" src="./images/unsplash-min.jpg" alt="" width="1014">
                     </picture>
                 </div>
-
-
-
                 <img src="./img/girl.png" alt="" class="cust-rews__girl">
                 <div class="cust-box">
                     <p class="cust__text">I love visiting your cafe. You prepare the most delicious ice cream in Los
@@ -364,17 +409,26 @@
                 </div>
 
                 <p class="cust_place">Emily, Los Angeles</p>
-                <div class="dots">
-                    <div class="sing-dot"></div>
-                    <div class="sing-dot"></div>
-                    <div class="sing-dot"></div>
-                </div>
+                <ul class="dots">
+                    <li>
+                        <button type="button" class="sing-dot"></button>
+                    </li>
+                    <li>
+                        <button type="button" class="sing-dot"></button>
+                    </li>
+                    <li>
+                        <button type="button" class="sing-dot"></button>
+                    </li>
+                    <li>
+                        <button type="button" class="sing-dot"></button>
+                    </li>
+                </ul>
             </div>
         </section>
         <section class="contacts">
             <div class="container">
                 <ul class="contacts__list">
-                    <li class="contacts__list--item">
+                    <li class="contacts__list--item contacts__list--item-first">
                         <span class="contacts__company">cafe</span>
                         <address class="contacts__address">
                             <p class="contacts__text">Chicago</p>
@@ -399,7 +453,7 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="contacts__list--item">
+                    <li class="contacts__list--item contacts__list--item-sec">
                         <span class="contacts__company">food truck</span>
                         <address class="contacts__address">
                             <p class="contacts__text">Los Angeles</p>
@@ -424,7 +478,7 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="contacts__list--item">
+                    <li class="contacts__list--item contacts__list--item-third">
                         <span class="contacts__company">cafe</span>
                         <address class="contacts__address">
                             <p class="contacts__text">New York</p>
@@ -450,50 +504,56 @@
                         </ul>
                     </li>
                 </ul>
-                <button class="btn btn--cont" type="button">Our Locations
-                    <svg class="icon-arrow" width="12" height="12">
-                        <use href="./img/symbol-defs.svg#icon-arrow"></use>
-                    </svg>
-                </button>
-                <button class="btn-border btn-border--cont" type="button">Franchise
-                    <svg class="icon-arrow" width="12" height="12">
-                        <use href="./img/symbol-defs.svg#icon-arrow"></use>
-                    </svg>
-                </button>
+                <div class="cont-btn-dox">
+                    <button class="btn btn--cont" type="button">Our Locations
+                        <svg class="icon-arrow" width="12" height="12">
+                            <use href="./img/symbol-defs.svg#icon-arrow"></use>
+                        </svg>
+                    </button>
+                    <button class="btn-border btn-border--cont" type="button">Franchise
+                        <svg class="icon-arrow" width="12" height="12">
+                            <use href="./img/symbol-defs.svg#icon-arrow"></use>
+                        </svg>
+                    </button>
+                </div>
+
             </div>
         </section>
     </main>
     <footer>
         <div class="helper">
             <div class="container bordline">
-                <div class="cont-block">
+
+            
                     <div class="how">
                         <h2 class="how__title">homemade ice cream made</h2>
                         <p class="how__text">with passion</p>
                     </div>
-                </div>
-                <div class="icon__block">
-                    <ul class="mess__list">
-                        <li class="mess__list--item">
-                            <svg class="icon-mess" width="34" height="34">
-                                <use href="./img/symbol-defs.svg#icon-github"></use>
-                            </svg>
-                        </li>
-                        <li class="mess__list--item">
-                            <svg class="icon-mess" width="34" height="34">
-                                <use href="./img/symbol-defs.svg#icon-telegram"></use>
-                            </svg>
-                        </li>
-                        <li class="mess__list--item">
-                            <svg class="icon-mess" width="34" height="34">
-                                <use href="./img/symbol-defs.svg#icon-group"></use>
-                            </svg>
-                        </li>
-                    </ul>
-                </div>
-                <div class="cont-block">
-                    <a class="cont__link" href="tel:+610383766284"><span class="cont__text">Feel free to contact
-                        </span>+61 (0) 383 766 284</a>
+                
+                <div class="foot-box">
+                    <div class="icon__block">
+                        <ul class="mess__list">
+                            <li class="mess__list--item">
+                                <svg class="icon-mess" width="34" height="34">
+                                    <use href="./img/symbol-defs.svg#icon-github"></use>
+                                </svg>
+                            </li>
+                            <li class="mess__list--item">
+                                <svg class="icon-mess" width="34" height="34">
+                                    <use href="./img/symbol-defs.svg#icon-telegram"></use>
+                                </svg>
+                            </li>
+                            <li class="mess__list--item">
+                                <svg class="icon-mess" width="34" height="34">
+                                    <use href="./img/symbol-defs.svg#icon-group"></use>
+                                </svg>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="cont-block">
+                        <a class="cont__link" href="tel:+610383766284"><span class="cont__text">Feel free to contact
+                            </span>+61 (0) 383 766 284</a>
+                    </div>
                 </div>
             </div>
             <div class="copyrigth">

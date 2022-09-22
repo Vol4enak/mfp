@@ -1,10 +1,19 @@
 .rews-pick-box {
   position: relative;
-    margin: 0 auto;
+  margin: 0 auto;
   margin-bottom: 80px;
 
   width: 280px;
   height: 130px;
+  @media screen and (min-width: 768px) {
+    width: 704px;
+    height: 163px;
+    margin: 0 auto;
+  }
+   @media screen and (min-width: 1200px) {
+    width: 1014px;
+    height: 163px;
+  }
 }
 
 .cust-rews__unsplashk {
@@ -13,4 +22,16 @@
   margin: 0 auto;
   width: 280px;
   border-radius: 7.5px;
+   @media screen and (min-width: 768px) {
+    border-radius: 18px;
+    width: 704px;
+    height: 327px;
+    top: -164px;
+  }
+   @media screen and (min-width: 1200px) {
+    border-radius: 24px;
+    width: 1013px;
+    height: 422px;
+    top: -94px;
+  }
 }
