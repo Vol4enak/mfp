@@ -2,6 +2,9 @@
   border-radius: 50%;
   margin: 0 auto;
   width: 200px;
+  @media screen and (min-width: 1200px) {
+    width: 400px;
+  }
 }
 
 .products-box {
@@ -10,6 +13,14 @@
   width: 280px;
   height: 420px;
   border-radius: 24px;
+  @media screen and (min-width: 768px) {
+    width: 224px;
+    height: 428px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 370px;
+    height: 535px;
+  }
 }
 .products-box--green {
   background-color: $color-bg-light-green;
@@ -22,7 +33,11 @@
 }
 
 .circle {
-  @include shadow (200px, 211px, -100px, 50%)
+  @media screen and (min-width: 1200px) {
+    @include shadow(303px, 317px, -170px, 50%);
+  }
+
+  @include shadow(200px, 211px, -100px, 50%);
 }
 
 .circle--green {
@@ -33,6 +48,9 @@
     ),
     #d9d9d9;
   box-shadow: 0px 5.34219px 20.0332px rgba(10, 136, 23, 0.25);
+  @media screen and (min-width: 1200px) {
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.25);
+  }
 }
 .circle--yellow {
   background: linear-gradient(
@@ -42,6 +60,9 @@
     ),
     #d9d9d9;
   box-shadow: 0px 5.40397px 20.2649px rgba(153, 114, 23, 0.25);
+  @media screen and (min-width: 1200px) {
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.25);
+  }
 }
 .circle--brown {
   background: linear-gradient(
@@ -51,4 +72,7 @@
     ),
     #d9d9d9;
   box-shadow: 0px 5.41333px 20.3px rgba(0, 0, 0, 0.25);
+  @media screen and (min-width: 1200px) {
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.25);
+  }
 }

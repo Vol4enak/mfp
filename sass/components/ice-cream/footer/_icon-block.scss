@@ -1,16 +1,45 @@
-// .icon__block{
-
-// }
-.mess__list{
-display: flex;
-justify-content: flex-end;
-gap: 29px;
-margin-top: 42px;
-margin-bottom: 38tgtpx;
+.foot-box {
+  @media screen and (min-width: 768px) {
+    position: relative;
+    margin-left: auto;
+    width: 400px;
+  }
 }
-// .mess__list--item{
 
-// }
-// .icon-mess{
+.icon__block {
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    top: -183px;
+    left: 58%;
+  }
+}
+.cont-block {
+  margin-top: 38px;
+  @media screen and (min-width: 768px) {
+   position: absolute;
+   top: -61px;
+   left: 22%;
+  }
+   @media screen and (min-width: 1200px) {
+   position: absolute;
+   top: -65px;
+   left: 15%;
+  }
+}
 
-// }
+.mess__list {
+  display: flex;
+  justify-content: flex-end;
+  gap: 29px;
+  margin-top: 42px;
+  margin-bottom: 38tgtpx;
+}
+.mess__list--item{
+
+}
+.icon-mess{
+@media screen and (min-width: 768px) {
+ width: 34px;
+ height: 34px;   
+}
+}

@@ -1,7 +1,16 @@
 // .cont-block {
 // }
-// .how {
-// }
+.how {
+  margin-top: 38px;
+  @media screen and(min-width:768px) {
+    margin-top: 40px;
+    margin-right: auto;
+  }
+  @media screen and(min-width:1200px) {
+    margin-top: 52px;
+    margin-right: auto;
+  }
+}
 .how__title {
   margin-bottom: 16px;
   width: 232px;
@@ -11,6 +20,20 @@
   text-transform: uppercase;
 
   color: $main-light;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 9px;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0.04em;
+    width: 350px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 14px;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.04em;
+    width: auto;
+  }
 }
 .how__text {
   width: 234px;
@@ -21,4 +44,16 @@
   text-transform: uppercase;
 
   color: $main-light;
+  @media screen and (min-width: 768px) {
+    font-size: 48px;
+    line-height: 59px;
+    letter-spacing: 0.06em;
+    width: 350px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 58px;
+    line-height: 71px;
+    letter-spacing: 0.06em;
+    width: auto;
+  }
 }

@@ -13,6 +13,17 @@
   text-align: center;
 
   color: $color-text-brown;
+  @media screen and (min-width: 768px) {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 186%;
+    letter-spacing: 0.02em;
+    width: auto;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 12px;
+    line-height: 186%;
+  }
 }
 .bordline {
   border-bottom: 1px solid #e1e1e1;

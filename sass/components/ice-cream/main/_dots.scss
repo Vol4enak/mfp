@@ -1,14 +1,18 @@
 .dots {
   display: flex;
   margin: 0 auto;
-  padding-bottom: 395px;
+  padding-bottom: 405px;
   gap: 18px;
-  width: 72px;
+  width: 102px;
   height: 12px;
+  @media screen and (min-width:1200px) {
+    padding-bottom: 207px;
+  }
 }
 .sing-dot {
   width: 12px;
   height: 12px;
   border-radius: 50%;
   background-color: $main-dots-disabled;
+  
 }

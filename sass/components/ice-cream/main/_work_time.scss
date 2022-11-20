@@ -1,11 +1,20 @@
 .work-time__list {
-    padding: 24px 0px;
-    border-bottom: 1px solid #E1E1E1;
+  padding: 24px 0px;
+  border-bottom: 1px solid #e1e1e1;
+  @media screen and (min-width: 768px) {
+    padding: 32px 0px;
+  }
+  
 }
 .work-time__list--item {
-    &:first-child{
-        margin-bottom: 8px;
-    }
+  &:first-child {
+    margin-bottom: 8px;
+  }
+  @media screen and (min-width: 768px) {
+    &:first-child {
+    margin-bottom: 12px;
+  }
+  }
 }
 .work-time__list--text {
   font-weight: 500;
@@ -13,10 +22,24 @@
   line-height: 22px;
 
   color: $main-dark;
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 16px;
+    line-height: 186%;
+  }
 }
 .work-time__list--time {
   font-weight: 500;
   font-size: 12px;
   line-height: 186%;
   color: $main-grey-disabled;
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+  }
+   @media screen and (min-width: 1200px) {
+    font-size: 16px;
+    line-height: 186%;
+  }
 }
